@@ -7,7 +7,7 @@ if cpu > 80:
 elif cpu > 60:
         print("Warning: Moderate CPU usage")      
 else:
-     print("CPU normal")
+     print("CPU usage is normal")
 
 
 #disk check
@@ -16,4 +16,4 @@ if disk > 90:
 elif disk > 75:
     print("Warning: Moderate Disk usage")
 else:
-    print("Disk normal")
+    print("Disk usage is normal")
